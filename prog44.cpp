@@ -8,13 +8,13 @@ int main(){
     count=0;
     cout<<"List length: ";
     cin>>l;
-    cout<<"Enter the #'s from the list:";
+    cout<<"Enter the #'s from the list: ";
     while(w<=l){
         cin>>num;
         if (num==-7)
-            count++
+            count++;
         w++;
     }
-      cout<<"There is/are <<count<<" -7's in the list\n";
+      cout<<"There is/are "<<count<<" -7's in the list\n";
     return 0;
 }
