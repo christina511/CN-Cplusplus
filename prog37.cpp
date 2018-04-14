@@ -9,7 +9,6 @@ int main(){
     cout<<"Enter the #'s from the list:";
     while(w<=5){
         cin>>num;
-        cout<<num<<endl;
         sum = sum + num;
         w++;
     }
