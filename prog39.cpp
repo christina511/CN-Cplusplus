@@ -9,7 +9,7 @@ int main(){
     while(w<=5){
         cin>>num;
         if (num<=-2 && num>= -19)
-            cout<<num<<endl;
+            cout<<num<<"is negative"<<endl;
         w++;
     }
     return 0;
