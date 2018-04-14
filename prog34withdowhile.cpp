@@ -5,10 +5,10 @@ using namespace std;
 int main(){
     int w;
     w=1;
-    w=w+1;
     do{
-        cout<<w<<endl;
-        w=w+2;
+        if(w%2==0)
+          cout<<w<<endl;
+        w++;
     }while(w<=10);
     return 0;
 }
