@@ -8,7 +8,7 @@ int main(){
     cout<<"Enter the #'s from the list:";
     while(w<=5){
         cin>>num;
-        if (num<=14 and num>= 5 and num%2!=0)
+        if (num<=14 && num>= 5 && num%2!=0)
             cout<<num<<endl;
         w++;
     }
