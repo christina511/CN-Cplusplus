@@ -20,12 +20,13 @@ using namespace std;
 int main(){
     int w;
     w=13;
-    while(w<=17)
+    while(w<=17){
         if (w==13)
             cout<<"The first is "<<w<<endl;
         if (w==17)
             cout<<"The last is "<<w<<endl;
         w++;
+    }
     return 0;
 }
 */
