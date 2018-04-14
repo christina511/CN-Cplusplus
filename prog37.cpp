@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-//p36 is to print the sum of a list of 5 numbers: 3, 2, -7, 19, -18
+//p37 is to print the sum of a list of 5 numbers: 3, 2, -7, 19, -18
 //spring break hw due April 14, 2018
 int main(){
     int w,num,sum;
