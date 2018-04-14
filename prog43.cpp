@@ -8,12 +8,12 @@ int main(){
     w=1;
     cout<<"List length: ";
     cin>>l;
-    flag=false
+    flag=false;
     cout<<"Enter the #'s from the list:";
     while(w<=l){
         cin>>num;
         if (num==-7)
-            flag = true
+            flag = true;
         w++;
     }
     if(flag)
