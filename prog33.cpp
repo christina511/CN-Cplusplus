@@ -5,9 +5,9 @@ using namespace std;
 int main(){
     int w;
     w=1;
-    do{
-        cout<<w<<endl;
-        w=w+2;
-    }while(w<=10);
+    while(w<=10)
+        if (w%2!=0)
+            cout<<w<<endl;
+    w++
     return 0;
 }
