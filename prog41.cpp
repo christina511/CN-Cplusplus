@@ -11,9 +11,9 @@ int main(){
     while(w<=l){
         cin>>num;
         if (w==1)
-            cout<<num<<endl;
+            cout<<"The first number is "<<num<<endl;
         else if (w==l)
-            cout<<num<<endl;
+            cout<<"The last number is "<<num<<endl;
         w++;
     }
     return 0;
