@@ -7,6 +7,9 @@ int main(){
 	w=19;
 	sum=0;
 	while (w<=21){
-			
+		if(w%2==0)
+		    sum = sum + w;
+		w++;
 	}
+	cout<<"The sum is "<<sum<<endl;
 }
