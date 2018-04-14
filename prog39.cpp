@@ -8,7 +8,7 @@ int main(){
     cout<<"Enter the #'s from the list:";
     while(w<=5){
         cin>>num;
-        if (num<=-2 and num>= -19)
+        if (num<=-2 && num>= -19)
             cout<<num<<endl;
         w++;
     }
