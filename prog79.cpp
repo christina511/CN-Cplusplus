@@ -8,7 +8,7 @@ int main(){
   T=1;
   while (T!=-999){
     cout<<"Enter 2 #'s: ";
-    cin>>a,b;
+    cin>>a>>b;
     if(a == 0){
       if(b == 0)
         cout<<"All solutions\n";
