@@ -1,5 +1,4 @@
 #include<iostream>
-#include<cmath>
 using namespace std;
 //p80 to solve as many equations as you have including no equation
 //April 20, 2018
