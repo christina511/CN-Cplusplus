@@ -8,6 +8,6 @@ int main(){
     while(w<=10)
         if (w%2!=0)
             cout<<w<<endl;
-    w++
+    w++;
     return 0;
 }
