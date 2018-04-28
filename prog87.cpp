@@ -13,16 +13,16 @@ int main(){
 		cout<<"please enter two numbers: ";
 		cin>>a>>b;
 		if(a == 0){
-	    	if(b == 0)
-	    		AllSol();
-		 	else
-	        	NoSol();
-	      }
-	    else{
-	    	cout<<"x= "<<onesol(a,b)<<endl;
+			if(b == 0)
+				AllSol();
+			else
+				NoSol();
+	      		}
+	    	else{
+	    		cout<<"x= "<<onesol(a,b)<<endl;
 		}
 	cout<<"To stop enter -999. To continue enter any other #.\n";
-    cin>>T;
+    	cin>>T;
 	}
 	return 0;
 	}
